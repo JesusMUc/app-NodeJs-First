@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- fuentes font oweson ad bostrar-->
+    <%- include('partials/head.html'); -%>
+  </head>
+
+  <body>
+    <%- include('partials/navigetion.html'); -%>
+
+    <div class="container">
+      <header class="row">
+        <div class="col-lg-12 text-center">
+          <img
+            src="/img/logo.png"
+            class="animate__animated animate__bounce"
+            alt="Logo de la pagina"
+          />
+        </div>
+      </header>
+    </div>
+    <!--Seccion one-->
+    <div class="container-fluid" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-sm-6">
+          <i class="fab fa-facebook fa-10x"></i>
+        </div>
+        <div class="col-sm-6">
+          <h3>I'm new Freelancer</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, aspernatur laudantium voluptatibus, nobis dolor maxime
+            repellat aut adipisci, eveniet amet dicta cupiditate. Nam magnam
+            eligendi voluptate fuga quis, accusamus quae!
+          </p>
+        </div>
+      </div>
+    </div>
+    <%- include('partials/footer.html'); -%>
+  </body>
+</html>
